@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='Blueprint Target Bundles' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1346058858268'/>
+    <property name='p2.compressed' value='false'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='10'>
+    <artifact classifier='osgi.bundle' id='org.apache.aries.blueprint' version='0.4.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='407261'/>
+        <property name='download.size' value='407261'/>
+        <property name='download.md5' value='2c9e9029b114568a8a33bb3172d62a60'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.aries.proxy' version='0.4.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='80340'/>
+        <property name='download.size' value='80340'/>
+        <property name='download.md5' value='37623eb8ddcd885380af283d05033f44'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.aries.blueprint.core' version='0.4.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='358657'/>
+        <property name='download.size' value='358657'/>
+        <property name='download.md5' value='1f5a282ece25b7e906b57327ea9abf4d'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.commons.lang' version='2.6.0.v201205030909'>
+      <properties size='3'>
+        <property name='artifact.size' value='299203'/>
+        <property name='download.size' value='299203'/>
+        <property name='download.md5' value='eda03fdbff120eac3fc74bef0d089d4c'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ch.qos.logback.classic' version='1.0.0.v20111214-2030'>
+      <properties size='3'>
+        <property name='artifact.size' value='256101'/>
+        <property name='download.size' value='256101'/>
+        <property name='download.md5' value='8e8376c7d38a3bc53524109108e8cfa9'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.aries.util' version='0.4.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='96733'/>
+        <property name='download.size' value='96733'/>
+        <property name='download.md5' value='d37c7f3ff1ae65d61d1543faff7a208e'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ch.qos.logback.slf4j' version='1.0.0.v20120123-1500'>
+      <properties size='3'>
+        <property name='artifact.size' value='11063'/>
+        <property name='download.size' value='11063'/>
+        <property name='download.md5' value='c4d10b362f5a76fb7f03613e4fc96998'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ch.qos.logback.core' version='1.0.0.v20111214-2030'>
+      <properties size='3'>
+        <property name='artifact.size' value='350745'/>
+        <property name='download.size' value='350745'/>
+        <property name='download.md5' value='ae8d21bd738a15715e7ac1cca01da969'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='osgi.enterprise' version='4.2.0.v201108120515'>
+      <properties size='3'>
+        <property name='artifact.size' value='158727'/>
+        <property name='download.size' value='158727'/>
+        <property name='download.md5' value='15a29dc5a2b2383358dd0bc10727680c'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.slf4j.api' version='1.6.4.v20120130-2120'>
+      <properties size='3'>
+        <property name='artifact.size' value='35068'/>
+        <property name='download.size' value='35068'/>
+        <property name='download.md5' value='4dee86e64173697484119d2b4e8be067'/>
+      </properties>
+    </artifact>
+  </artifacts>
+</repository>
